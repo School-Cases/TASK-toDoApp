@@ -1,0 +1,50 @@
+
+
+/* * {
+    border: 1px solid black;
+} */
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.marginBot {
+    margin-bottom: 10px;
+}
+
+#toDoList {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    /* list-style-type: none; */
+}
+
+.theNewToDo {
+    height: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.removeItem {
+    height: 30px;
+    width: 30px;
+    float: right;
+    background-color: rgb(248, 66, 66);
+    border-radius: 6px;
+}
+
+.removeItem:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* #submitButton {
+    margin-left: 10px;
+} */
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
